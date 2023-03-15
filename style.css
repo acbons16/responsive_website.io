@@ -1,0 +1,41 @@
+body *{
+    display: flex;
+    font-size: 35px;
+}
+
+header, section, aside, main, footer{
+    border: 1px solid rgb(11, 53, 66);
+}
+
+header {
+    height: 100px;
+    margin-bottom: 5px;
+    background-color: rgb(133, 210, 245);
+}
+
+main {
+    height: 75vh;
+    background-color: rgb(73, 203, 226);
+}
+
+main aside {
+    flex-grow: 1;
+}
+
+main section {
+    flex-grow: 4;
+}
+
+footer {
+    height: 100px;
+    margin-top: 5px;
+    background-color: rgb(134, 215, 235);
+}
+
+#navbar {
+    flex-grow: 3.6;
+}
+
+#settings {
+    flex-grow: 1;
+}
